@@ -19,7 +19,7 @@ SET LogVerbosity=normal
 SET Configuration=Release
 
 :: Must run 32 bit MSBuild because an in-line task depends on NuGet.exe, which apparently only targets x86.
-SET MSBuild=%ProgramFiles(x86)%\MSBuild\12.0\Bin\msbuild.exe
+SET MSBuild=%ProgramFiles(x86)%\MSBuild\14.0\Bin\msbuild.exe
 
 ECHO.
 ECHO Preparing to build the Rxx solution.
@@ -50,7 +50,7 @@ IF /I "%UnitTestsYN%" == "Y" (
 	SET UnitTests=False
 )
 
-SET Properties=Platform="Any CPU"
+SET Properties=Platform="AnyCPU"
 SET Properties=%Properties%;Configuration=%Configuration%
 SET Properties=%Properties%;BuildDocumentation=%BuildDocumentation%
 SET Properties=%Properties%;StaticAnalysisEnabled=%StaticAnalysis%

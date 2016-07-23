@@ -54,8 +54,6 @@
 	<PropertyGroup>
 		<PostBuildDeploymentPackagesDependsOn>
 			CreateNuGetPushFile;
-			CodePlexPack;
-			SymbolsPack;
 		</PostBuildDeploymentPackagesDependsOn>
 	</PropertyGroup>
 	<Target Name="PostBuildDeploymentPackages" DependsOnTargets="$(PostBuildDeploymentPackagesDependsOn)" AfterTargets="DeployPackage"
@@ -75,33 +73,6 @@
 		</ItemGroup>
 
 		<WriteLinesToFile File="$(ProjectDeploymentDir)NuGetPush.bat" Lines="@(NuGetPush)" />
-
-	</Target>
-
-	<Target Name="CodePlexPack" Condition=" '$(Configuration)' == 'Release' ">
-
-		<ItemGroup>
-			<!-- Workaround: http://social.msdn.microsoft.com/Forums/en-US/msbuild/thread/8a2f4af8-7a57-454f-aa7d-684f3f89acf3 -->
-			<CodePlexZip Condition=" !Exists($(DocumentationFile)) AND '$(BuildingInsideVisualStudio)' == True " Include="$(TargetDir)*.tmp">
-				<ZipFilename>$(TargetName).xml</ZipFilename>
-			</CodePlexZip>
-			<CodePlexZip Condition=" Exists($(DocumentationFile)) " Include="$(DocumentationFile)" />
-		</ItemGroup>
-
-		<Zip SourceFiles="@(CodePlexZip)" DestinationZipFile="$(CodePlexZipFile)" />
-
-		<Copy Condition=" '@(CompiledDocumentation)' != '' " SourceFiles="@(CompiledDocumentation)" DestinationFolder="$(CodePlexDeploymentDir)" />
-
-	</Target>
-
-	<Target Name="SymbolsPack" Condition=" '$(Configuration)' == 'Release' ">
-
-		<ItemGroup>
-			<SymbolsZip Condition=" Exists('$(TargetDir)$(TargetName).pdb') " Include="$(TargetDir)$(TargetName).pdb" />
-			<SymbolsZip Condition=" Exists('$(CodeContractsSymbols)') " Include="$(CodeContractsSymbols)" />
-		</ItemGroup>
-
-		<Zip Condition=" '@(SymbolsZip)' != '' " SourceFiles="@(SymbolsZip)" DestinationZipFile="$(SymbolsPackFile)" />
 
 	</Target>
 

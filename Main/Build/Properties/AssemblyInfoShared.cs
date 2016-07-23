@@ -5,12 +5,7 @@ using System.Reflection;
 using System.Resources;
 using System.Runtime.CompilerServices;
 
-[assembly: InternalsVisibleTo("Rxx.UnitTests, PublicKey="
-  + "00240000048000009400000006020000002400005253413100040000010001008b9eb24ee1e273"
-  + "f6c54c5e13b17f8b5ba836de94c86a05b0b833a68e56604e10f0c8747186523b32e57dc603fd9d"
-  + "367c3e90e019b9d44f72ffe21e2dcdfe8e60814625e88c858f078536604f6ed2bcccc0c72d2245"
-  + "70d32d01b218c80508e15e07351630c242d76f4e16722ee5ede147479e9fc9160999d3d33f24c9"
-  + "022beba1")]
+[assembly: InternalsVisibleTo("Rxx.UnitTests")]
 
 [assembly: CLSCompliant(true)]
 
