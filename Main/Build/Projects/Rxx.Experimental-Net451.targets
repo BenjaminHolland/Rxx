@@ -22,10 +22,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<NuGetFlavor Include="..\Rxx.Experimental-Net40\Rxx.Experimental-Net40.csproj" />
-		<NuGetFlavor Include="..\Rxx.Experimental-Net403-SL5-Win8-WP8\Rxx.Experimental-Net403-SL5-Win8-WP8.csproj" />
-		<NuGetFlavor Include="..\Rxx.Experimental-Net451-Win81\Rxx.Experimental-Net451-Win81.csproj" />
-		<NuGetFlavor Include="..\Rxx.Experimental-Win81-WP81\Rxx.Experimental-Win81-WP81.csproj" />
+		<!--<NuGetFlavor Include="..\Rxx.Experimental-Net40\Rxx.Experimental-Net40.csproj" />
+		<NuGetFlavor Include="..\Rxx.Experimental-Net403-SL5-Win8-WP8\Rxx.Experimental-Net403-SL5-Win8-WP8.csproj" />-->
+		<!--<NuGetFlavor Include="..\Rxx.Experimental-Net451-Win81\Rxx.Experimental-Net451-Win81.csproj" />-->
+		<!--<NuGetFlavor Include="..\Rxx.Experimental-Win81-WP81\Rxx.Experimental-Win81-WP81.csproj" />-->
 	</ItemGroup>
 
 	<PropertyGroup>

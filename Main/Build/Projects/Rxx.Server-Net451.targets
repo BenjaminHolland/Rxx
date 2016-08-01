@@ -22,7 +22,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<NuGetFlavor Include="..\Rxx.Server-Net40\Rxx.Server-Net40.csproj" />
+		<!--<NuGetFlavor Include="..\Rxx.Server-Net40\Rxx.Server-Net40.csproj" />-->
 	</ItemGroup>
 
 	<PropertyGroup>

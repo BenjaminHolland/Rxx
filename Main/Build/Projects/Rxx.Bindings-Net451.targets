@@ -22,10 +22,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<NuGetFlavor Include="..\Rxx.Bindings-Net40\Rxx.Bindings-Net40.csproj" />
-		<NuGetFlavor Include="..\Rxx.Bindings-Net403-SL5-Win8-WP8\Rxx.Bindings-Net403-SL5-Win8-WP8.csproj" />
-		<NuGetFlavor Include="..\Rxx.Bindings-Net451-Win81\Rxx.Bindings-Net451-Win81.csproj" />
-		<NuGetFlavor Include="..\Rxx.Bindings-Win81-WP81\Rxx.Bindings-Win81-WP81.csproj" />
+		<!--<NuGetFlavor Include="..\Rxx.Bindings-Net40\Rxx.Bindings-Net40.csproj" />
+		<NuGetFlavor Include="..\Rxx.Bindings-Net403-SL5-Win8-WP8\Rxx.Bindings-Net403-SL5-Win8-WP8.csproj" />-->
+		<!--<NuGetFlavor Include="..\Rxx.Bindings-Net451-Win81\Rxx.Bindings-Net451-Win81.csproj" />-->
+		<!--<NuGetFlavor Include="..\Rxx.Bindings-Win81-WP81\Rxx.Bindings-Win81-WP81.csproj" />-->
 	</ItemGroup>
 
 	<PropertyGroup>

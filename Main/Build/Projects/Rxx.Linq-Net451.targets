@@ -22,10 +22,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<NuGetFlavor Include="..\Rxx.Linq-Net40\Rxx.Linq-Net40.csproj" />
-		<NuGetFlavor Include="..\Rxx.Linq-Net403-SL5-Win8-WP8\Rxx.Linq-Net403-SL5-Win8-WP8.csproj" />
-		<NuGetFlavor Include="..\Rxx.Linq-Net451-Win81\Rxx.Linq-Net451-Win81.csproj" />
-		<NuGetFlavor Include="..\Rxx.Linq-Win81-WP81\Rxx.Linq-Win81-WP81.csproj" />
+		<!--<NuGetFlavor Include="..\Rxx.Linq-Net40\Rxx.Linq-Net40.csproj" />
+		<NuGetFlavor Include="..\Rxx.Linq-Net403-SL5-Win8-WP8\Rxx.Linq-Net403-SL5-Win8-WP8.csproj" />-->
+		<!--<NuGetFlavor Include="..\Rxx.Linq-Net451-Win81\Rxx.Linq-Net451-Win81.csproj" />-->
+		<!--<NuGetFlavor Include="..\Rxx.Linq-Win81-WP81\Rxx.Linq-Win81-WP81.csproj" />-->
 	</ItemGroup>
 
 	<PropertyGroup>

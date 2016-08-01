@@ -22,10 +22,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<NuGetFlavor Include="..\Rxx.Parsers-Net40\Rxx.Parsers-Net40.csproj" />
-		<NuGetFlavor Include="..\Rxx.Parsers-Net403-SL5-Win8-WP8\Rxx.Parsers-Net403-SL5-Win8-WP8.csproj" />
-		<NuGetFlavor Include="..\Rxx.Parsers-Net451-Win81\Rxx.Parsers-Net451-Win81.csproj" />
-		<NuGetFlavor Include="..\Rxx.Parsers-Win81-WP81\Rxx.Parsers-Win81-WP81.csproj" />
+		<!--<NuGetFlavor Include="..\Rxx.Parsers-Net40\Rxx.Parsers-Net40.csproj" />
+		<NuGetFlavor Include="..\Rxx.Parsers-Net403-SL5-Win8-WP8\Rxx.Parsers-Net403-SL5-Win8-WP8.csproj" />-->
+		<!--<NuGetFlavor Include="..\Rxx.Parsers-Net451-Win81\Rxx.Parsers-Net451-Win81.csproj" />-->
+		<!--<NuGetFlavor Include="..\Rxx.Parsers-Win81-WP81\Rxx.Parsers-Win81-WP81.csproj" />-->
 	</ItemGroup>
 
 	<PropertyGroup>
